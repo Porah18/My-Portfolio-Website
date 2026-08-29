@@ -47,11 +47,12 @@ body{
 }
 
 .btn-1{
-	color: ;
+	background-color: #F4C542;
 	cursor: pointer;
 }
 
 .btn-2{
+	border: 2px solid;
 	border: 2px solid;
 	cursor: pointer;
 }
