@@ -11,14 +11,24 @@ header{
 	position: relative;
 }
 
+header p{
+	float: left;
+	left: 800px;
+}
+
 img{
-	position: absolute;
+	display:flex;
+	justify-content: flex-start;
+	float: right;
+	right: 500px;
+	/*position: absolute;
 	left: 520px;
 	top: 0;
 	width: 420px;
 	height: 69px;
 	border-radius: 0;
-	object-fit: cover;
+	object-fit: cover;*/
+	
 }
 
 .nav-links{
