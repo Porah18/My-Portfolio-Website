@@ -13,32 +13,34 @@ header{
 
 header p{
 	float: left;
-	left: 800px;
+	left: 111px;
+	top: 12px;
 }
 
-img{
-	display:flex;
-	justify-content: flex-start;
-	float: right;
-	right: 500px;
-	/*position: absolute;
-	left: 520px;
-	top: 0;
-	width: 420px;
-	height: 69px;
-	border-radius: 0;
-	object-fit: cover;*/
-	
-}
+
 
 .nav-links{
 	position: absolute;
-	left: 1029px;
+	right: 24px;
 	top: 14px;
 	width: 291px;
+	z-index: 1;
 	
 	padding: 0;
 	text-align: left;
+}
+
+.profile-image {
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index: 0;
+}
+
+.profile-image img {
+	display: block;
+	width: 550px;
+	height: 400px;
 }
 
 .nav-links ul{
