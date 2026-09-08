@@ -12,9 +12,10 @@ header{
 }
 
 header p{
-	float: left;
+	position: absolute;
 	left: 111px;
 	top: 12px;
+
 }
 
 
@@ -25,7 +26,6 @@ header p{
 	top: 14px;
 	width: 291px;
 	z-index: 1;
-	
 	padding: 0;
 	text-align: left;
 }
@@ -51,6 +51,12 @@ header p{
 	margin: 0;
 	padding: 0;
 	list-style: none;
+}
+
+.nav-links ul li a{
+	text-decoration: none;
+	color: #f4c542;
+
 }
 
 .intro {
