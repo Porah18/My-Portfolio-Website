@@ -117,3 +117,43 @@ header p{
 	background-color: white;
 }
 
+.projects {
+	position: absolute;
+	left: 22px;
+	top: 700px;
+	width: 992px;
+	height: 1892px;
+	display: flex;
+	flex-direction: column;
+	gap: 80px;
+	align-items: center;
+}
+
+.rectangle {
+	width: 100px;
+	height: 2px;
+	border-radius: 2px;
+    color: #F4C542;
+
+}
+
+.project-nfo {
+	position: relative;
+	width: 496px;
+	height: 524px;
+	border-radius: 0;
+	background-color: white;
+}
+
+.project-frame {
+	position: absolute;
+	left: 50.44px;
+	top: 146.5px;
+	width: 406.68px;
+	height: 232px;
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+	align-items: flex-start;
+}
+
